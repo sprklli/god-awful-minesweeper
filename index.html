@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Very Normal Minesweeper</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body oncontextmenu="return false;">
+
+  <img id="clickable" onclick="rr()" height="64px" src="icons/a.png"><img id="clickable" onclick="rr()" height="64px" src="icons/h.png"><br>
+  <img id="clickable" onclick="rr()" height="64px" src="icons/b.png"><img id="clickable" onclick="rr()" height="64px" src="icons/i.png"><br>
+  <img id="clickable" onclick="rr()" height="64px" src="icons/c.png"><br>
+  <img id="clickable" onclick="rr()" height="64px" src="icons/d.png"><br>
+  <img id="clickable" onclick="rr()" height="64px" src="icons/e.png"><br>
+  <img id="clickable" onclick="rr()" height="64px" src="icons/f.png"><br>
+  <img id="clickable" onclick="rr()" height="64px" src="icons/g.png"><br>
+
+  <div id="gridarea">
+    <div id="top">
+      <img src="assets/menu-icon.png"><p style="color: white; display: inline;"> Minesweeper</p>
+      <img src="assets/window-controls2.png" id="clickable" onclick = "bye()" style="float: right;-webkit-filter: none;filter: none;"><img src="assets/window-controls1.png" style="float: right;">
+      
+    </div>
+
+    <div id="credit" style="text-align: center;">LEFT CLICK for <img src="assets/flag.png">; click face to reset</div>
+    
+    <div id="menu">
+      <div id="minimenu">
+        <div id="timer1">010</div>
+        <button id="smile" onclick="reset()"><img src="assets/smiley-face.png"></button>
+        <div id="timer2">000</div>
+      </div>
+    </div>
+
+    <div id="boxesarea1">
+      <div id="boxesarea2">
+      </div>
+    </div>
+    
+  </div>
+  
+  <!--reee-->
+
+  <!--
+  -->
+  
+  <div id="rollarea">
+    <div id="top" style="background-image: linear-gradient(90deg, #a8180d, white);">
+      <img src="assets/gif.png" height="20px"><p style="color: white; display: inline;"> rickroll.mp4</p>
+      <img src="assets/window-controls2.png" id="clickable" onclick = "rollbye()" style="float: right;-webkit-filter: none;filter: none;"><img src="assets/window-controls1.png" style="float: right;">
+      
+    </div>
+    
+    <div id="rollgifarea">
+      <iframe class="youtube-video" height="175px" width="215px" src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+</iframe>
+    
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
